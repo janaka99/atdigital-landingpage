@@ -1,0 +1,64 @@
+.homepage-service{
+    width: 1064px;
+    display: flex;
+    gap: 108px;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: auto;
+    max-width: 100%;
+}
+
+
+.homepage-service img{
+        width: 346px;
+        height: 346px;
+        object-fit: cover;
+        object-position: center;
+}
+
+.homepage-service-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.homepage-service-title{
+    font-size: 27px;
+    color: #6B3CC9;
+    font-weight: 600;
+}
+
+.homepage-service-desc{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.homepage-service-default{
+        flex-direction: row;
+}
+
+.homepage-service-reverse{
+    flex-direction: row-reverse
+}
+
+@media screen and (max-width:1200px) {
+    .homepage-service{
+        width: 896px;
+        gap: 20px     ;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .homepage-service{
+        flex-direction: column !important;
+        
+    }
+    .homepage-service-details{
+        align-items: center;
+        text-align: center;
+    }
+
+}

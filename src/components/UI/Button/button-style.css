@@ -1,0 +1,10 @@
+.global-btn-1{
+    text-transform: uppercase;
+    padding: 12px 20px;
+    border-radius: 4px;
+    background-color: var(--secondary-color);
+    color: white;
+    width: fit-content;
+    font-size: 14px;
+    font-weight: 700;
+}
